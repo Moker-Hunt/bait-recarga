@@ -442,6 +442,7 @@ body {
     cursor: pointer;
     transition: background-color 0.3s ease;
     font-size: 1rem;
+    font-weight: 600;
 }
 
 .cookie-btn:hover {
@@ -480,6 +481,7 @@ body {
     text-align: center;
     background-color: var(--text-color);
     border-radius: 8px;
+    font-weight: 600;
 }
 
 .cookie-consent p span:hover a{
@@ -604,13 +606,14 @@ a:hover {
 }
 
 .second-info-container button {
-    background-color: #FF1493;
+    background-color: var(--accent-color);
     border: none;
     border-radius: 5px;
     padding: 16px 20px;
     cursor: pointer;
     transition: background-color 0.3s;
     font-size: 1rem;
+    font-weight: 600;
 }
 
 .second-info-container button a {
