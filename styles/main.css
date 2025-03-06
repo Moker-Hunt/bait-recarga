@@ -107,6 +107,24 @@ body {
     background-position: center;
 }
 
+@media (max-width: 700px) {
+    #index-1 {
+        background-image: 
+        linear-gradient( 180deg, #00000092, #1a1a1a89), url("../images/index-1-tb.webp");
+    }
+    #index-2 {
+        background-image: 
+        linear-gradient( 180deg, #0f0f0f89, #43004396), url("../images/index-2-tb.webp");
+    }
+}
+
+@media (max-width: 400px) {
+    #index-1 {
+        background-image: 
+        linear-gradient( 180deg, #00000092, #1a1a1a89), url("../images/index-1-mb.webp");
+    }
+}
+
 #cobertura-1 {
     background-image: 
     linear-gradient( 180deg, #0f0f0f89, #43004396), url("../images/cobertura-1.webp");
@@ -624,13 +642,13 @@ a:hover {
     background-color: #FF69B4;
 }
 
-.second-info-container button a {
+.second-info-container a button{
     color: #FFFFFF;
     text-decoration: none;
     transition: color 0.3s;
 }
 
-.second-info-container button:hover a {
+.second-info-container a:hover button {
     color: var(--footer-color);
 }
 
